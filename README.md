@@ -2,7 +2,7 @@
 
 ##Discription
 - アニメーションのデータを事前に、Vector3D配列にしておく
-- 実行時に配列データをComputeBufferを作成
+- 実行時に配列データを入れたComputeBufferを作成
 - ShaderでComputeBufferを読み込み、アニメーションを表示
 - ついでに、GeometryShaderを使用したポリゴンの分割化
 
