@@ -18,7 +18,7 @@ public class ObjectInstanceData : MonoBehaviour
          {
              return new instanceData()
              {
-                 position = Random.insideUnitSphere * 7f,//Vector3.zero,
+                 position = Random.insideUnitSphere * 5f,//Vector3.zero,
                  velocity = Vector3.zero,
                  rotation = Random.rotation,//Quaternion.identity,
                  animTime = 0,
