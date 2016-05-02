@@ -12,12 +12,14 @@ namespace sugi.cc
             get
             {
                 if (_Instance == null)
+                    _Instance = FindObjectOfType<ScreenCapture>();
+                if (_Instance == null)
                     _Instance = new GameObject("capture").AddComponent<ScreenCapture>();
                 return _Instance;
             }
         }
         static ScreenCapture _Instance;
-        public int fps;
+        public int fps = 10;
         public int superSize;
 
         bool recording;
