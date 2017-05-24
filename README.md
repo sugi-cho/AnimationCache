@@ -1,6 +1,6 @@
 # AnimationCache in Unity
 
-##Discription
+## Discription
 - アニメーションのデータを事前に、Vector3D配列にしておく
 - 実行時に配列データを入れたComputeBufferを作成
 - ShaderでComputeBufferを読み込み、アニメーションを表示
@@ -11,8 +11,8 @@
 
 アニメーションを頂点位置をあらかじめキャッシュしておき、リアルタイム実行時のボーンアニメーションによる頂点計算の処理を省略
 
-##Capture Image
+## Capture Image
 ![](Capture.gif)
 
-##Author
+## Author
 SUGINO Hironori (sugi.cho) http://sugi.cc/
